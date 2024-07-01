@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&display=swap');
+
+body {
+    font-family: 'Great Vibes', cursive;
+    background: url('images/photo_2024-07-01_15-09-02.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.invitation {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #d9534f;
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+}
+
+.date {
+    font-size: 1.5em;
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.event {
+    margin: 2em 0;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #5bc0de;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.footer {
+    margin-top: 2em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
