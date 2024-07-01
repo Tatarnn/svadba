@@ -10,21 +10,29 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .invitation {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 30px;
+    padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     max-width: 700px;
+    min-height: 300px;
+    max-height: 90vh;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow-y: auto;
 }
 
 h1 {
     font-family: 'Dancing Script', cursive;
     color: #d9534f;
-    font-size: 2.8em;
+    font-size: 2em;
     margin-bottom: 0.5em;
 }
 
@@ -34,23 +42,98 @@ h1 {
     font-weight: bold;
 }
 
-.event {
+.roadmap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
     margin: 2em 0;
+}
+
+.event {
+    background: #f8f9fa;
+    border: 2px solid #d9534f;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.event a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+}
+
+.event:hover {
+    background: #e9ecef;
 }
 
 h2 {
     font-family: 'Dancing Script', cursive;
     color: #5bc0de;
     margin-bottom: 0.5em;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.2em;
+}
+
+.time-address {
+    font-size: 1.7em;
+    font-weight: bold;
 }
 
 .footer {
     margin-top: 2em;
-    font-size: 1.6em;
+    font-size: 1.9em;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    p, .time-address {
+        font-size: 1em;
+    }
+
+    .footer {
+        font-size: 1.2em;
+    }
+
+    .event {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p, .time-address {
+        font-size: 0.9em;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
+
+    .event {
+        padding: 10px;
+    }
 }
