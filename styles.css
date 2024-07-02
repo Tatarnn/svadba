@@ -5,23 +5,23 @@ body {
     background: url('images/photo_2024-07-01_15-09-02.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 10px;
     padding: 20px;
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
+
 .invitation {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     max-width: 700px;
     min-height: 300px;
-    max-height: 90vh;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
@@ -31,8 +31,8 @@ body {
 
 h1 {
     font-family: 'Dancing Script', cursive;
-    color: #d9534f;
-    font-size: 2em;
+    color: #d4af37; /* Золотой цвет */
+    font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
@@ -40,6 +40,7 @@ h1 {
     font-size: 1.5em;
     margin: 1em 0;
     font-weight: bold;
+    color: #d4af37; /* Золотой цвет */
 }
 
 .roadmap {
@@ -47,18 +48,19 @@ h1 {
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin: 2em 0;
+    margin: 20px 0;
 }
 
 .event {
-    background: #f8f9fa;
-    border: 2px solid #d9534f;
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid #d4af37; /* Золотой цвет */
     border-radius: 10px;
     padding: 20px;
     width: 100%;
-    margin: 10px 0;
+    margin: 5px 0;
     position: relative;
     box-sizing: border-box;
+    padding-top: 0;
 }
 
 .event a {
@@ -69,12 +71,12 @@ h1 {
 }
 
 .event:hover {
-    background: #e9ecef;
+    background: #ffe4c4; /* Светло-бежевый цвет */
 }
 
 h2 {
     font-family: 'Dancing Script', cursive;
-    color: #5bc0de;
+    color: #ff69b4; /* Яркий розовый цвет */
     margin-bottom: 0.5em;
     font-size: 1.8em;
 }
@@ -84,14 +86,22 @@ p {
 }
 
 .time-address {
-    font-size: 1.7em;
+    font-size: 2em;
     font-weight: bold;
+    color: #d4af37; /* Золотой цвет */
+}
+
+.address {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #5bc0de; /* Голубой цвет */
 }
 
 .footer {
     margin-top: 2em;
-    font-size: 1.9em;
+    font-size: 2em;
     font-weight: bold;
+    color: #947922; /* Золотой цвет */
 }
 
 @media (max-width: 768px) {
@@ -106,6 +116,9 @@ p {
     p, .time-address {
         font-size: 1em;
     }
+    .time-address {
+        font-size: 2em;
+    }
 
     .footer {
         font-size: 1.2em;
@@ -113,6 +126,7 @@ p {
 
     .event {
         padding: 15px;
+        padding-top: 0;
     }
 }
 
@@ -128,12 +142,16 @@ p {
     p, .time-address {
         font-size: 0.9em;
     }
-
+    .time-address {
+        font-size: 2em;
+    }
     .footer {
-        font-size: 1em;
+        font-size: 2em;
+        margin-top: 0;
     }
 
     .event {
         padding: 10px;
+        padding-top: 0;
     }
 }
