@@ -94,7 +94,7 @@ p {
 .address {
     font-size: 1.2em;
     font-weight: bold;
-    color: #5bc0de; /* Голубой цвет */
+    color: #000000; /* Черный цвет */
 }
 
 .footer {
