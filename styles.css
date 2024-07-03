@@ -1,157 +1,161 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&display=swap');
 
 body {
-    font-family: 'Great Vibes', cursive;
-    background: url('images/photo_2024-07-01_15-09-02.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #333;
-    height: 100vh;
-    margin: 10px;
-    padding: 20px;
-    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive; /* Основной шрифт страницы */
+    background: url('images/photo_2024-07-01_15-09-02.jpg') no-repeat center center fixed; /* Фон страницы */
+    background-size: cover; /* Масштабирование фона */
+    color: #333; /* Цвет текста */
+    height: 100vh; /* Высота экрана */
+    margin: 10px; /* Внешний отступ */
+    padding: 20px; /* Внутренний отступ */
+    box-sizing: border-box; /* Общая модель коробки */
 }
 
 p {
-    margin: 0;
+    margin: 0; /* Убираем отступы у параграфов */
 }
 
 .invitation {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    max-width: 700px;
-    min-height: 300px;
-    text-align: center;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0 auto;
-    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.5); /* Фон карточки с прозрачностью */
+    padding: 20px; /* Внутренний отступ карточки */
+    border-radius: 15px; /* Скругление углов карточки */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Тень карточки */
+    max-width: 700px; /* Максимальная ширина карточки */
+    min-height: 300px; /* Минимальная высота карточки */
+    text-align: center; /* Выравнивание текста по центру */
+    width: 100%; /* Ширина карточки */
+    box-sizing: border-box; /* Общая модель коробки */
+    margin: 0 auto; /* Выравнивание по центру */
+    overflow-y: auto; /* Прокрутка по вертикали */
 }
 
 h1 {
-    font-family: 'Dancing Script', cursive;
-    color: #d4af37; /* Золотой цвет */
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
+    /*font-family: 'Dancing Script', cursive; /* Шрифт заголовка */
+    font-family: 'Great Vibes', cursive; /* Шрифт заголовка */
+    color: #d4af37; /* Золотой цвет текста */
+    font-size: 2.5em; /* Размер шрифта */
+    margin-bottom: 0.5em; /* Отступ снизу */
 }
 
 .date {
-    font-size: 1.5em;
-    margin: 1em 0;
-    font-weight: bold;
-    color: #d4af37; /* Золотой цвет */
+    font-size: 1.7em; /* Размер шрифта */
+    margin: 0.2em 0; /* Отступы сверху и снизу */
+    font-weight: bold; /* Жирный шрифт */
+    color: #000000; /* Черный цвет текста */
 }
 
 .roadmap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin: 20px 0;
+    display: flex; /* Гибкое выравнивание */
+    flex-direction: column; /* Колонка */
+    align-items: center; /* Центрирование элементов */
+    position: relative; /* Относительное позиционирование */
+    margin: 20px 0; /* Отступы сверху и снизу */
 }
 
 .event {
-    background: rgba(255, 255, 255, 0.6);
-    border: 2px solid #d4af37; /* Золотой цвет */
-    border-radius: 10px;
-    padding: 20px;
-    width: 100%;
-    margin: 5px 0;
-    position: relative;
-    box-sizing: border-box;
-    padding-top: 0;
+    background: rgba(255, 255, 255, 0.6); /* Фон карточки события с прозрачностью */
+    border: 2px solid #d4af37; /* Золотая рамка */
+    border-radius: 10px; /* Скругление углов */
+    padding: 20px; /* Внутренний отступ */
+    width: 100%; /* Ширина карточки */
+    margin: 5px 0; /* Отступы сверху и снизу */
+    position: relative; /* Относительное позиционирование */
+    box-sizing: border-box; /* Общая модель коробки */
+    padding-top: 0; /* Убираем верхний отступ */
 }
 
 .event a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    width: 100%;
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: inherit; /* Наследуем цвет текста */
+    display: block; /* Блочное отображение */
+    width: 100%; /* Ширина блока */
 }
 
 .event:hover {
-    background: #ffe4c4; /* Светло-бежевый цвет */
+    background: #ffe4c4; /* Светло-бежевый цвет при наведении */
 }
 
 h2 {
-    font-family: 'Dancing Script', cursive;
-    color: #ff69b4; /* Яркий розовый цвет */
-    margin-bottom: 0.5em;
-    font-size: 1.8em;
+    font-family: 'Great Vibes', cursive; /* Шрифт заголовка */
+    color: #d4af37; /* Золотой цвет текста */
+    margin-bottom: 0.5em; /* Отступ снизу */
+    font-size: 2.5em; /* Размер шрифта */
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.2em; /* Размер шрифта */
 }
 
 .time-address {
-    font-size: 2em;
-    font-weight: bold;
-    color: #d4af37; /* Золотой цвет */
+    font-size: 2em; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    color: #d4af37; /* Золотой цвет текста */
 }
 
 .address {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #000000; /* Черный цвет */
+    font-size: 1.5em; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    color: #000000; /* Черный цвет текста */
 }
 
 .footer {
-    margin-top: 2em;
-    font-size: 2em;
-    font-weight: bold;
-    color: #947922; /* Золотой цвет */
+    margin-top: 0.4em; /* Отступ сверху */
+    font-size: 3em; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    color: #fad352; /* Золотой цвет текста */
 }
 
+/* Настройки для экранов шириной до 768px */
 @media (max-width: 768px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 1.5em; /* Уменьшаем размер шрифта заголовка */
     }
 
     h2 {
-        font-size: 1.4em;
+        font-size: 1.4em; /* Уменьшаем размер шрифта заголовка события */
     }
 
     p, .time-address {
-        font-size: 1em;
+        font-size: 1em; /* Уменьшаем размер шрифта текста и времени/адреса */
     }
     .time-address {
-        font-size: 2em;
+        font-size: 2em; /* Размер шрифта времени/адреса */
     }
 
     .footer {
-        font-size: 1.2em;
+        font-size: 1.2em; /* Уменьшаем размер шрифта в футере */
     }
 
     .event {
-        padding: 15px;
-        padding-top: 0;
+        padding: 15px; /* Уменьшаем внутренний отступ */
+        padding-top: 0; /* Убираем верхний отступ */
     }
 }
 
+/* Настройки для экранов шириной до 480px */
 @media (max-width: 480px) {
     h1 {
-        font-size: 1.2em;
+        font-size: 1.9em; /* Еще больше уменьшаем размер шрифта заголовка */
     }
 
     h2 {
-        font-size: 1.2em;
+        font-size: 1.5em; /* Еще больше уменьшаем размер шрифта заголовка события */
     }
 
     p, .time-address {
-        font-size: 0.9em;
+        font-size: 0.9em; /* Еще больше уменьшаем размер шрифта текста и времени/адреса */
     }
     .time-address {
-        font-size: 2em;
+        font-size: 2em; /* Размер шрифта времени/адреса */
     }
+
     .footer {
-        font-size: 2em;
-        margin-top: 0;
+        font-size: 2em; /* Размер шрифта в футере */
+        margin-top: 0; /* Убираем верхний отступ в футере */
     }
 
     .event {
-        padding: 10px;
-        padding-top: 0;
+        padding: 10px; /* Еще больше уменьшаем внутренний отступ */
+        padding-top: 0; /* Убираем верхний отступ */
     }
 }
