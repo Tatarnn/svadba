@@ -35,6 +35,7 @@ h1 {
     color: #d4af37; /* Золотой цвет текста */
     font-size: 2.5em; /* Размер шрифта */
     margin-bottom: 0.5em; /* Отступ снизу */
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
 
 .date {
